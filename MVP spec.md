@@ -1,33 +1,34 @@
 # Essay Review Agent
 
-A local-first writing assistant designed to help analyze and refine essays, reflections, and letters. The tool runs locally on your machine with the only external dependency being an LLM API call (OpenAI, Anthropic, Gemini, or xAI).
+A local-first writing assistant designed to help analyze and refine essays, reflections, and letters. The tool runs locally on your machine with the only external dependency being an LLM API call (OpenAI, Anthropic, Gemini, or xAI) or standard Internet usage.
 
 ## 🎯 Project Purpose
 
-* Support writers by checking **logical flow**, **redundancy**, and **tone consistency** across multiple essays.
-* Allow **cross-essay awareness**: identify when content overlaps, contradicts, or repeats.
-* Provide a flexible framework to swap between different LLM providers.
-* Serve as a foundation for experimenting with **agentic AI workflows**.
+* Support writers through various analytical and critical thinking skills, such as checking **logical flow**, **redundancy**, and **tone consistency**
+* Provide broad contextual awareness, able to look at a set of files or websites and their content in context of any related query, eg identifying if **content overlaps**, **contradicts**, or **flows**.
+* Concentrate expertise to **focus narrowly on a subject**, **conduct fact checks**, or **compare across disciplines**. 
+* Leverage multiple LLM providers to compare expertise, eg **LLM critical debate**, **LLM collaboration sessions**, and the ability to **easilyswap between different LLM providers**.
+* Teach Moti how to build **agentic AI workflows**.
 
 ## 🛠️ Core Features (MVP)
 
-1. **Essay Loading**
+1. **Writing Loading**
 
-   * Store essays as plain text or Markdown files in `/essays`.
+   * Store files of writing in a specific folder
 
-2. **Redundancy Check**
+3. **Redundancy Check**
 
    * Compare one essay against the rest and highlight overlapping or repetitive content.
 
-3. **Flow Check**
+4. **Flow Check**
 
    * Assess whether an essay’s reflection flows logically from its letter.
 
-4. **Tone Check**
+5. **Tone Check**
 
    * Compare style, tone, and perspective across reflections for consistency.
 
-5. **LLM Flexibility**
+6. **LLM Flexibility**
 
    * Ability to select which LLM provider to call per request (OpenAI, Claude, Gemini, xAI).
 
